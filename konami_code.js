@@ -8,8 +8,8 @@ let index = 0;
 
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
- console.log(e.which)
- console.log(e.detail)
+ console.log(`Which key: ${e.which}`)
+ console.log(`Key Detail: ${e.detail}`)
  
   if (key === code[index]) {
     index++;
